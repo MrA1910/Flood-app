@@ -149,13 +149,14 @@ tenacity==8.5.0
 tensorboard==2.16.2
 tensorboard-data-server==0.7.2
 tensorflow==2.16.2
+tensorflow-intel==2.16.2
 termcolor==2.4.0
 threadpoolctl==3.5.0
 tifffile==2024.7.2
 toml==0.10.2
 tomli==2.0.1
 tomli_w==1.0.0
-torch==2.3.1
+torch==2.3.1+cu121
 torchaudio==2.3.1+cu121
 torchvision==0.18.1+cu121
 tornado==6.4.1
