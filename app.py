@@ -7,11 +7,11 @@ import vonage
 model = joblib.load('flood_model.pkl')
 
 # Vonage client setup for sending SMS
-client = vonage.Client(key='4a0f06c5', secret='4VdRo4eJRzuEb9Zi')
-sms = vonage.Sms(client)
+# client = 0 Key and secret
+# sms = vonage.Sms(client)
 
 # Phone numbers to notify in case of flood risk
-phone_numbers = ["+8562054695598", "+8562058589113", "+8562095101237", "+8562059143947", "+8562059157847"]
+phone_numbers = []
 
 # Function to simulate fetching system-provided data
 def fetch_system_data():
